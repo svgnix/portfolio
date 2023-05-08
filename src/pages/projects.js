@@ -6,6 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import buildingImg from "../../public/images/projects/under-const.png";
+import mesImg from "../../public/images/projects/mes.png";
+import portfolioImg from "../../public/images/projects/portf.png";
+import wconnectImg from "../../public/images/projects/w-connect.png";
 import Transitions from "@/Components/Transitions";
 
 
@@ -132,19 +135,20 @@ const projects = () => {
               <FeatureProject
                 type={"FEATURE PROJECT"}
                 title={"W-Connect"}
-                link=""
+                link="https://w20-3kft-l7bf0kx93-sranjan0208.vercel.app/"
                 github={"https://github.com/Sranjan0208/W20"}
-                img={buildingImg}
-                summary="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,"
+                img={wconnectImg}
+                summary="• W-Connect is an application to match mentors with mentees based on their common preferences and requirements
+                • Website was made using React and NextJS. The preferences of the user along with user data was stored in Firebase"
               />
             </div>
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
                 title={"PORTFOLIO"}
-                link=""
+                link="https://iamsagnik.vercel.app/"
                 github={"https://github.com/sagniksantra/portfolio"}
-                img={buildingImg}
+                img={portfolioImg}
                 summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
               />
             </div>
@@ -153,9 +157,13 @@ const projects = () => {
                 type={"PROJECT"}
                 title={"MES Website"}
                 link=""
-                github={""}
-                img={buildingImg}
-                summary="Lorem Ipsum "
+                github={"https://github.com/sagniksantra/mes2.2"}
+                img={mesImg}
+                summary="• An interface which will showcase all the events taking place and their details. The whole website is made using
+                ReactJS and Sass is used for CSS
+                • Registration and Login feature for the Users added with the facility to register for their favourite events. The user
+                data and their registered events is being stored in MongoDB
+                • Utilized responsive design to ensure compatibility across all devices"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
