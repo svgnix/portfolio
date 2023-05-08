@@ -48,12 +48,6 @@ const Education = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between xs:ml-2">
-          {/* <Details
-            type="Full Stack Web Development"
-            time="Jan 2022 - "
-            place=""
-            info="Completed 1200+ Hours of coursework in topics such as JAVA,DATA STRUCTURE AND ALGORITHMS, REACT ,REDUX ,NODE.JS ,EXPRESS.JS ,MONGODB ,MONGOOSE ,NEXT.JS."
-          /> */}
           <Details
             type="Bachelor Of Technology In Data Science & Engineering"
             time="2021-2025 "
