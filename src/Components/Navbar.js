@@ -106,6 +106,11 @@ const Navbar = () => {
             title={"Projects"}
             className={"ml-4"}
           ></CustomLink>
+          <CustomLink
+            href="/articles"
+            title={"Articles"}
+            className={"ml-4"}
+          ></CustomLink>
         </nav>
         <nav className="flex item-center justify-center flex-wrap">
           <motion.a
@@ -167,6 +172,12 @@ const Navbar = () => {
               toggle={handlleClick}
               href="/projects"
               title={"Projects"}
+              className={""}
+            ></CustomMobileLink>
+            <CustomMobileLink
+              toggle={handlleClick}
+              href="/articles"
+              title={"Articles"}
               className={""}
             ></CustomMobileLink>
           </nav>
